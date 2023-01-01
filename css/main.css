@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #82ffcc;
+  background: #6aff21;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2175,14 +2175,14 @@ embed {
   text-align: center;
 }
 .custom-logo .site-title {
-  color: #222;
+  color: "";
   margin: 10px auto 0;
 }
 .custom-logo .site-title a {
   border: 0;
 }
 .custom-logo-image {
-  background: #fff;
+  background: #6495ed;
   margin: 0 auto;
   max-width: 150px;
   padding: 5px;
@@ -2288,4 +2288,57 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.links-of-blogroll-item .sidebar {
+  background: url("/images/sidebar-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.header-inner {
+  background: #000 #262a30;
+  opacity: 1;
+}
+.sidebar {
+  transition-duration: 0.4s;
+  opacity: 1;
+}
+.posts-expand .post-title-link {
+  color: #2e405b;
+}
+.post-block {
+  background: #666;
+  border-radius: initial;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+  padding: 40px;
+}
+.main-inner > .sub-menu,
+.main-inner > .post-block,
+.main-inner > .tabs-comment,
+.main-inner > .comments,
+.main-inner > .pagination {
+  background: rgba(245,245,245,0.42);
+}
+body {
+  color: #000;
+}
+.posts-expand .post-title-link {
+  color: #000;
+}
+.posts-expand .post-meta-container {
+  color: #800;
+}
+.sidebar {
+  opacity: 0.85;
+}
+.main-inner {
+  opacity: 0.8;
 }
