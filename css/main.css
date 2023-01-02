@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e7994e;
+  background: #ff1320;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2168,6 +2168,9 @@ embed {
   display: block;
   margin: 0 auto 25px auto;
 }
+.content-wrap {
+  background: rgba(255,255,255,0.8);
+}
 .custom-logo .site-meta-headline {
   text-align: center;
 }
@@ -2188,7 +2191,7 @@ embed {
   position: relative;
   display: inline-block;
   padding: 0 40px;
-  color: "";
+  color: #f0f0f0;
 background
   border-bottom: none;
 }
@@ -2255,6 +2258,7 @@ background
 }
 .sub-menu .menu-item {
   display: inline-block;
+  background: #c82829;
 }
 .sidebar {
   left: -320px;
@@ -2300,7 +2304,7 @@ body {
 }
 .header-inner {
   background: #000 #262a30;
-  opacity: 1;
+  opacity: 0.8;
 }
 .sidebar {
   background: url("/images/sidebar-bg.jpg");
